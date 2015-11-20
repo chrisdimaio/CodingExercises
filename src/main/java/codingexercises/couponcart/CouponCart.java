@@ -16,17 +16,17 @@ Sample Cart:
 package codingexercises.couponcart;
 
 public class CouponCart {
-	public static void main(String[] args){
-		Cart cart = new Cart();
+    public static void main(String[] args){
+        Cart cart = new Cart();
 
-		cart.add(new Product("Post cards", 10.00));
-		cart.add(new CouponOne(.10));
-		cart.add(new CouponTwo(2.00, cart.size() + 1));
-		cart.add(new CouponThree("Post cards", .30, 2, cart.size() + 1));
-		cart.add(new Product("Business Cards", 25.00));
-		cart.add(new Product("Post cards", 15.00));
+        cart.add(new Product("Post cards", 10.00));
+        cart.add(new CouponOne(.10));
+        cart.add(new CouponTwo(2.00, cart.size() + 1));
+        cart.add(new CouponThree("Post cards", .30, 2, cart.size() + 1));
+        cart.add(new Product("Business Cards", 25.00));
+        cart.add(new Product("Post cards", 15.00));
 
-		System.out.println(cart);
-	}
+        System.out.println(cart);
+    }
 }
 
