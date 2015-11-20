@@ -1,3 +1,5 @@
+package codingexercises.couponcart;
+
 /*Interview design problem where these is a shopping cart with items. Items can be products or coupons.
 There are three coupon senarios.
 1. Take X% off all items.
@@ -13,7 +15,6 @@ Sample Cart:
 4. Coupon: Take 5% off Nth postcard.
 5. $20 Box of business cards.
 6. $15 postcard.*/
-package codingexercises.couponcart;
 
 public class CouponCart {
     public static void main(String[] args){
