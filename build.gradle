@@ -4,3 +4,8 @@ task(runCouponCart, dependsOn: jar, type: JavaExec ) {
     main = 'codingexercises.couponcart.CouponCart'
     classpath = sourceSets.main.runtimeClasspath
 }
+
+task(runMissingIndex, dependsOn: jar, type: JavaExec ) {
+    main = 'codingexercises.missingindex.MissingIndex'
+    classpath = sourceSets.main.runtimeClasspath
+}
