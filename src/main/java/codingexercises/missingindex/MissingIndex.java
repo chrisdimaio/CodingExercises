@@ -1,8 +1,12 @@
 package codingexercises.missingindex;
 
+import java.util.Arrays;
+
 public class MissingIndex {
 	public static void main(String[] args) {
 		int[] indexes = {1,2,3,0,5,6};
+
+		System.out.println("Array of indexes: " + Arrays.toString(indexes));
 
 		int n   = indexes.length;
 		int sum = 0;
@@ -12,7 +16,6 @@ public class MissingIndex {
 
 		int missingIndex = (n * (n + 1) / 2) - sum;
 
-		System.out.println((n * (n + 1) / 2));
-		System.out.println(missingIndex);
+		System.out.println("The missing index is " + missingIndex + ".");
 	}
 }
