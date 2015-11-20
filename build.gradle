@@ -1,0 +1,6 @@
+apply plugin: 'java'
+
+task(runCouponCart, dependsOn: jar, type: JavaExec ) {
+    main = 'codingexercises.couponcart.CouponCart'
+    classpath = sourceSets.main.runtimeClasspath
+}
