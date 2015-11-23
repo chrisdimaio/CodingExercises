@@ -7,7 +7,7 @@ public class Product extends Item {
     Product(String pN, double p){
         super(ItemType.PRODUCT);
         productName = pN;
-        price        = p;
+        price       = p;
     }
 
     public String getProductName(){
