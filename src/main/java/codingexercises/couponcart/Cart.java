@@ -38,15 +38,6 @@ public class Cart {
         return string;
     }
 
-    public void printCart(){
-        for(Item item: itemList){
-            if(item.getItemType() == ItemType.PRODUCT){
-                Product product = (Product)item;
-                System.out.println(product.getPrice());
-            }
-        }
-    }
-
     public int size(){
         return itemList.size();
     }
