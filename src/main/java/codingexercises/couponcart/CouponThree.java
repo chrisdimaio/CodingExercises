@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 // Take X% off the Nth item of type T.
 public class CouponThree extends Coupon {
-    private int index;
     private int nth;
     private String productName;
 

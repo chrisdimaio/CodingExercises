@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 // Take $N off the next item.
 public class CouponTwo extends Coupon {
-    private int index;
 
     CouponTwo(double d){
         super(d);
