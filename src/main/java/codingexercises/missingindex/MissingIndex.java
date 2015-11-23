@@ -4,11 +4,9 @@ import java.util.Arrays;
 
 public class MissingIndex {
 	public static void main(String[] args) {
-		// missing index 4.
 		int[] indexes = {1,2,3,0,5,6};
 
 		System.out.println("Array of indexes: " + Arrays.toString(indexes));
-
 		System.out.println("The missing index is " + missingIndex(indexes) + ".");
 	}
 
