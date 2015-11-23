@@ -8,14 +8,16 @@ public class CouponThree extends Coupon {
     private int nth;
     private String productName;
 
-    CouponThree(String pN, double d, int n, int i){
+    CouponThree(String pN, double d, int n){
         super(d);
         productName = pN;
         nth         = n;
-        index         = i;
     }
 
     public void apply(ArrayList<Item> itemList){
+        System.out.println("getIndex: " + getIndex(itemList));
+        System.out.println("index: " + index);
+
         int rightProductCount = 0;
         for(int i = 0; i < itemList.size(); i++){
             Item item = itemList.get(i);

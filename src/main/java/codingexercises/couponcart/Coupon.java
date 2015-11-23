@@ -14,6 +14,10 @@ public abstract class Coupon extends Item {
         return discount;
     }
 
+    protected int getIndex(ArrayList<Item> itemList){
+        return itemList.indexOf(this);
+    }
+
     public String toString(){
         return "Coupon";
     }
