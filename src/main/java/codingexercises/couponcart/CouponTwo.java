@@ -12,7 +12,6 @@ public class CouponTwo extends Coupon {
     }
 
     public void apply(ArrayList<Item> itemList){
-        System.out.println("CouponTwo.apply()");
         for(int i = this.index + 1; i < itemList.size(); i++){
             Item item = itemList.get(i);
             if(item.getItemType() == ItemType.PRODUCT){
