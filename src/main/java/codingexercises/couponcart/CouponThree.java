@@ -14,9 +14,6 @@ public class CouponThree extends Coupon {
     }
 
     public void apply(ArrayList<Item> itemList){
-        System.out.println("getIndex: " + getIndex(itemList));
-        System.out.println("index: " + index);
-
         int rightProductCount = 0;
         for(int i = 0; i < itemList.size(); i++){
             Item item = itemList.get(i);
